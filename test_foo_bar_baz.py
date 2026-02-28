@@ -13,7 +13,7 @@ def test_basic_inputs():
     
     assert foo_bar_baz(3) == '1 2 Foo'
     
-    assert foo_bar_baz(5) == 'Bar'
+    assert foo_bar_baz(5) == '1 2 Foo 4 Bar'
 
 def test_less_basic():
     pass
